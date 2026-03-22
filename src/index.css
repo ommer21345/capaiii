@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+}
+
+:root {
+  --bg: #F8F9FA;
+  --ink: #141414;
+  --emerald-50: #ECFDF5;
+  --emerald-100: #D1FAE5;
+  --emerald-600: #059669;
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--ink);
+  font-family: var(--font-sans);
+}
+
+.markdown-body {
+  font-size: 0.875rem;
+  line-height: 1.5;
+}
+
+.markdown-body p {
+  margin-bottom: 0.5rem;
+}
